@@ -5,7 +5,7 @@ Home: https://github.com/QuantStack/memestra
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python checker for places where deprecated functions are called.
 
