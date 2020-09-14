@@ -1,4 +1,4 @@
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 {% set build = 0 %}
 
 package:
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/memestra/memestra-{{ version }}.tar.gz
-  sha256: 0cf015bdd9ddcc4ddcb5c6e72191ce9314df31d2006ebe61f10c3bb2e9fcb273
+  sha256: 1ed38e73af0e58751b980d482019f207afd241d59ca63796e767a959e6966955
 
 build:
   number: {{ build }}
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - memestra = memestra.memestra:run
     - memestra-cache = memestra.caching:run
