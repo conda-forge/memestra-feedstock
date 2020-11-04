@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/memestra/memestra-{{ version }}.tar.gz
-  sha256: 562c2b0c521313d873ec6aa8c7ef3c673d9779c1243067192ed2ead8b2386997
+  sha256: 222a91b46a560760e9132bac21fd2e6396e370f7dea99569fc24e8535b5c3f2b
 
 build:
   number: {{ build }}
