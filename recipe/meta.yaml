@@ -1,4 +1,4 @@
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 {% set build = 0 %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/memestra/memestra-{{ version }}.tar.gz
-  sha256: 6837e402fddc27e137ef73977b07e5aafef77e3c7d77f709dcb983fea514fcd2
+  sha256: 1b547fbc082c441101901ee7800c70080c5e6881579ea92087c4cdbfac81bf1d
 
 build:
   number: {{ build }}
